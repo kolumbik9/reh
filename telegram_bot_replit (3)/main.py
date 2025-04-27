@@ -3,10 +3,6 @@ from flask import Flask
 from threading import Thread
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-import logging
-
-API_TOKEN = '7503954652:AAFEHHxKGS25MhxB9wIoJB5wkxLXLnvq048'
-ADMIN_ID = 5665368775  # Замени на свой Telegram ID
 
 logging.basicConfig(level=logging.INFO)
 
